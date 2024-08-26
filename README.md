@@ -1,7 +1,6 @@
 [![progress-banner](https://backend.codecrafters.io/progress/grep/8cd7d51a-b7e8-40cc-a143-a08b3d64b409)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for JavaScript solutions to the
-["Build Your Own grep" Challenge](https://app.codecrafters.io/courses/grep/overview).
+
 
 [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression)
 (Regexes, for short) are patterns used to match character combinations in
@@ -12,8 +11,6 @@ In this challenge you'll build your own implementation of `grep`. Along the way
 we'll learn about Regex syntax, how parsers/lexers work, and how regular
 expressions are evaluated.
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
 
 # Passing the first stage
 
@@ -36,4 +33,4 @@ Note: This section is for stages 2 and beyond.
 1. Run `./your_program.sh` to run your program, which is implemented in
    `app/main.js`.
 1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+   Test output will be streamed to your terminal.
