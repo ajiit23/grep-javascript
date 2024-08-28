@@ -13,9 +13,7 @@ function matchPattern(inputLine, pattern) {
     const ptrn = new RegExp(pattern)
     return ptrn.test(inputLine);
   }
-  // else {
-  //   throw new Error(`Unhandled pattern ${pattern}`);
-  // }
+ 
   else {
     return new RegExp(regex).test(inputLine);
    }
@@ -30,10 +28,10 @@ function main() {
     process.exit(1);
   }
 
-  // You can use print statements as follows for debugging, they'll be visible when running tests.
+ 
   console.log("Logs from your program will appear here");
 
-  // Uncomment this block to pass the first stage
+
   if (matchPattern(inputLine, pattern)) {
     process.exit(0);
   } else {
